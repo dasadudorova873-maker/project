@@ -1,0 +1,58 @@
+Body {
+    Background-color: #121212;
+    Margin: 0;
+    Color: #ffffff;
+    Font-family: Arial, sans-serif;
+}
+.header {
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+    Padding: 20px 50px;
+}
+.logo-link {
+    Display: flex;
+    Align-items: center;
+    Text-decoration: none;
+    Color: #ffffff;
+}
+.logo-title {
+    Font-size: 20px;
+    Font-weight: 700;
+    Margin-left: 10px;
+    Text-transform: uppercase;
+}
+.menu-list {
+    List-style: none;
+    Display: flex;
+    Gap: 20px; 
+    Margin: 0;
+    Padding: 0;
+}
+.menu-link {
+    Font-family: 'Gilroy', Arial, sans-serif; 
+    Font-size: 14px;
+Font-weight: 500;
+    Line-height: 1.2;
+    Color: #b0b0b0; 
+    Text-decoration: none;
+    Transition: color 0.3s;
+}
+.menu-link:hover {
+    Color: #ffffff; 
+}
+.button {
+    Font-size: 14px;
+    Font-weight: 600;
+    Background-color: #2c2c2c;
+    Color: #fefeff;
+    Border: 1px solid #444444;
+    Border-radius: 12px;
+    Padding: 10px 20px;
+    Cursor: pointer;
+    Transition: background-color 0.3s;
+}
+
+.button:hover {
+    Background-color: #3d3d3d;
+}
