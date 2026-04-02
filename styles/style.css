@@ -1,58 +1,58 @@
 body {
-    Background-color: #121212;
-    Margin: 0;
-    Color: #ffffff;
-    Font-family: Arial, sans-serif;
+    background-color: #121212;
+    margin: 0;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
 }
 .header {
-    Display: flex;
-    Justify-content: space-between;
-    Align-items: center;
-    Padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
 }
 .logo-link {
-    Display: flex;
-    Align-items: center;
-    Text-decoration: none;
-    Color: #ffffff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
 }
 .logo-title {
-    Font-size: 20px;
-    Font-weight: 700;
-    Margin-left: 10px;
-    Text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    text-transform: uppercase;
 }
 .menu-list {
-    List-style: none;
-    Display: flex;
-    Gap: 20px; 
-    Margin: 0;
-    Padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+    margin: 0;
+    padding: 0;
 }
 .menu-link {
-    Font-family: 'Gilroy', Arial, sans-serif; 
-    Font-size: 14px;
-Font-weight: 500;
-    Line-height: 1.2;
-    Color: #b0b0b0; 
-    Text-decoration: none;
-    Transition: color 0.3s;
+    font-family: 'Gilroy', Arial, sans-serif; 
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #b0b0b0; 
+    text-decoration: none;
+    transition: color 0.3s;
 }
 .menu-link:hover {
-    Color: #ffffff; 
+    color: #ffffff; 
 }
 .button {
-    Font-size: 14px;
-    Font-weight: 600;
-    Background-color: #2c2c2c;
-    Color: #fefeff;
-    Border: 1px solid #444444;
-    Border-radius: 12px;
-    Padding: 10px 20px;
-    Cursor: pointer;
-    Transition: background-color 0.3s;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #2c2c2c;
+    color: #fefeff;
+    border: 1px solid #444444;
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .button:hover {
-    Background-color: #3d3d3d;
+    background-color: #3d3d3d;
 }
