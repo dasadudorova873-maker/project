@@ -2,7 +2,7 @@ body {
     background-color: #121212;
     margin: 0;
     color: #ffffff;
-    font-family: 'Rubik', 'Inter';
+    font-family: 'Rubik', sans-serif;
 }
 .header {
     display: flex;
@@ -30,7 +30,7 @@ body {
     padding: 0;
 }
 .menu-link {
-    font-family: 'Rubik'; 
+    font-family: 'Rubik', sans-serif; 
     font-size: 14px;
     font-weight: 500;
     line-height: 1.2;
