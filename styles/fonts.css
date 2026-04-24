@@ -1,20 +1,20 @@
 @font-face {
-    fint-family: 'Inter';
-    scr: url('../fonts/Inter_18pt-Regular.ttf');
+    font-family: 'Inter';
+    scr: url('fonts/Inter_Regular.ttf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
-    fint-family: 'Rubik';
-    scr: url('..fonts/Rubik-Medium.ttf');
-    font-weight: normal;
+    font-family: 'Rubik';
+    scr: url('fonts/Rubik_Medium.ttf');
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
-    fint-family: 'Rubik';
-    scr: url('..fonts/Rubik-Regular.ttf');
+    font-family: 'Rubik';
+    scr: url('fonts/Rubik_Regular.ttf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
