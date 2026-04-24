@@ -1,38 +1,40 @@
-body {
+body{
     background-color: #2B2B2B;
-    margin: 0;
     color: #ffffff;
     font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
 }
-.header {
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
 }
-.logo-image{
+.logo_image{
     width: 172px;
-    height: 48px;
-    display: block;
+    height: 40px;
 }
-.menu-list {
+.menu_list{
     list-style: none;
     display: flex;
     gap: 24px; 
-    margin: 0;
-    padding: 0;
 }
-.menu-link {
+.menu_link{
     font-family: 'Rubik', sans-serif; 
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400px;
     line-height: 24px;
     color: #ffffff; 
 }
-.menu-link:hover {
+.chek_icon{
     color: #ffffff; 
+    width: 8px;
+    height: 8px;
+    gap: 12px;
 }
-.button {
+.button{
+    font-family: 'Rubik', sans-serif; 
     width: 172px;
     height: 48px;
     font-size: 16px;
@@ -43,6 +45,49 @@ body {
     border: 1px solid #f8f8f81a;
     border-radius: 12px;
 }
-.button:hover {
-    background-color: #f8f8f8;
+.button:hover{
+    background-color: #f8f8f81a;
+}
+.hero{
+    text-align: center;
+}
+.main_image{
+    max-width: 100%;
+    height: auto;
+}
+.hero_subtitle{
+    font-family: 'Inter', sans-serif; 
+    color: #ffffff;
+}
+.hero_button{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 193,5px;
+    height: 48px;
+}
+.brand{
+    padding: 40px 0;
+    text-align: center;
+}
+.dashboard{
+    max-width: 100%;
+    border-radius: 20px;
+}
+.brand_title{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+.logotypes{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.features{
+    padding: 80px 0;
+}
+.features_text{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
 }
