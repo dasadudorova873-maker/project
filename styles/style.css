@@ -159,7 +159,6 @@ body{
 .features_images{
     display: flex;
     gap: 40px;
-    flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: space-between;
