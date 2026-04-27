@@ -159,6 +159,7 @@ body{
 .features_images{
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 .feature_image{
     width: 368px;
