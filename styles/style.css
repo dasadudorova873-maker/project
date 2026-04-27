@@ -60,7 +60,7 @@ body{
 .main_image{
     position: relative;
     width: 852px;
-    height: 604px;
+    height: 700;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,6 +69,8 @@ body{
 .first_picture{
     position: absolute;
     z-index: 1;
+    width: 678px;
+    height: 678px;
 }
 .vector{
     position: absolute;
