@@ -60,7 +60,7 @@ body{
 .main_image{
     position: relative;
     width: 852px;
-    height: 700;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
