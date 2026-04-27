@@ -69,8 +69,6 @@ body{
 .first_picture{
     position: absolute;
     z-index: 1;
-    width: 678px;
-    height: 678px;
 }
 .vector{
     position: absolute;
