@@ -58,24 +58,12 @@ body{
     padding: 80px 0;
 }
 .main_image{
-    position: relative;
     width: 852px;
     height: 604px;
 }
-.first_picture{
-    position: absolute;
-    z-index: 2;
-    width: 678px;
-    height: 678px;
-    top: 50%;
-    left: 50px;
-    transform: transplate(-50%, -50%);
-}
 .vector{
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left:0;
+    width: 852px;
+    height: 604px;
 }
 .hero_subtitle{
     font-family: 'Inter', sans-serif; 
@@ -89,6 +77,7 @@ body{
     gap: 16px;
     width: 193,5px;
     height: 48px;
+    list-style: none;
 }
 .button2{
     padding: 12px 16px;
