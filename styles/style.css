@@ -16,6 +16,7 @@ body{
     height: 40px;
 }
 .menu_list{
+    list-style: none;
     display: flex;
     gap: 24px; 
 }
