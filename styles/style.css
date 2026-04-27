@@ -91,11 +91,20 @@ body{
     height: 48px;
 }
 .button2{
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    width: 193,5px;
+    padding: 12px 16px;
+    font-family: 'Rubik', sans-serif; 
+    width: 172px;
     height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    gap: 20px;
+    background-color: #f8f8f80d;
+    color: #fefeff;
+    border: 1px solid #f8f8f81a;
+    border-radius: 12px;
+}
+.button2:hover{
+    background-color: #f8f8f81a;
 }
 .hero_note{
     font-family: 'Rubik', sans-serif;
