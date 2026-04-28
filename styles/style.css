@@ -5,6 +5,11 @@ body{
     margin: 0;
     padding: 0;
 }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 .header{
     display: flex;
     align-items: center;
@@ -351,7 +356,7 @@ body{
     width: 415px;
     height: 430px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: px;
     padding: 40px;
     border-radius: 20px;
@@ -496,6 +501,7 @@ body{
     width: 1443px;
     height: 364px;
     margin-top: 40px;
+    max-width: 100%;
 }
 .copyright{
     text-align: center;
