@@ -1,3 +1,6 @@
+*, ::before, ::after{
+    box-sizing: bordew-box;
+}
 body{
     background-color: #2B2B2B;
     color: #ffffff;
@@ -6,15 +9,15 @@ body{
     padding: 0;
 }
 .container{
-    max-width: 1200px;
+    width: 1440px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px 40px;
+    height: 80px;
 }
 .logo_image{
     width: 172px;
@@ -86,6 +89,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    width: 403px;
 }
 .hero_button{
     display: flex;
@@ -108,22 +112,19 @@ body{
     border: 1px solid #f8f8f81a;
     border-radius: 12px;
 }
-.button2:hover{
-    background-color: #f8f8f81a;
-}
 .hero_note{
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
+    width: 403px;
 }
 .brand{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 0;
-    gap: 40px;
     text-align: center;
+    height: 982px;
 }
 .dashboard{
     width: 1098px;
@@ -191,7 +192,7 @@ body{
     flex-direction: row;
     align-items: center;
     gap: 40px;
-    padding: 100px 0;
+    padding: 80px 40px;
 }
 .case_tittle{
     font-family: 'Rubik', sans-serif;
@@ -212,10 +213,8 @@ body{
 .stats_images{
     display: flex;
     gap: 24px;
-    padding: 40px;
-    border-radius: 16px;
+    padding: 80px 24px;
     width: 1360px;
-    height: 256;
     margin: 0 auto;
     background-color: gray;
     border: 1px solid #ffffff;
@@ -225,15 +224,17 @@ body{
     flex-direction: column;
     gap: 8px;
     text-align: center;
+    width: 421px;
+    border: 1px solid #ffffff
 }
 .stat_title{
     font-family: 'Rubik', sans-serif;
     font-size: 32px;
     font-weight: 500;
     line-height: 40px;
-    color: rgb(76, 113, 192);
+    color: #C6C7F8;
 }
-.stat_sebtitle{
+.stat_subtitle{
     font-size: 20px;
     line-height: 24px;
 }
@@ -248,7 +249,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 8px;
+    width: 530px;
     text-align: center;
 }
 .test_title{
@@ -265,14 +267,16 @@ body{
 }
 .peoples{
     display: flex;
-    gap: 40px;
+    gap: 24px;
 }
 .people{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 336px;
+    width: 368px;
+    gap: 16px;
+    padding: 16px 16px;
     position: relative;
 }
 .human{
