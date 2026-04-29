@@ -69,6 +69,7 @@ body{
     height: 604px;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     align-items: center;
     margin: 0 auto;
 }
