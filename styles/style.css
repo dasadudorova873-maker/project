@@ -594,7 +594,7 @@ body{
 }
 .footer_sub{
     display: flex;
-    flex-direction: colomn;
+    flex-direction: column;
     gap: 24px;
 }
 .footer_text{
@@ -643,6 +643,7 @@ body{
     gap: 24px;
     display: flex;
     flex-direction: row;
+    color: white;
 }
 .list1{
     display: flex;
