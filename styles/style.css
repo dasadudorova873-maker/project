@@ -284,7 +284,6 @@ body{
 .testimonials{
     padding: 80px 40px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 40px;
 }
@@ -315,7 +314,7 @@ body{
 }
 .people{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     width: 368px;
     gap: 16px;
