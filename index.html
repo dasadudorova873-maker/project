@@ -16,50 +16,53 @@
         </a>
         <nav class="nav">
             <ul class="menu_list">
-                <li class="menu_item"><a href="#" class="menu_link">Platform<img src="images/chek_icon.svg" alt="Icon" class="chek_icon" width="8" height="8"></a></li>
-                <li class="menu_item"><a href="#" class="menu_link">Solutions<img src="images/chek_icon.svg" alt="Icon" class="chek_icon" width="8" height="8"></a></li>
+                <li class="menu_item"><a href="#" class="menu_link">Platform<img src="images/chek_icon.svg" alt="Icon" class="dropdown" width="8" height="8"></a></li>
+                <li class="menu_item"><a href="#" class="menu_link">Solutions<img src="images/chek_icon.svg" alt="Icon" class="dropdown" width="8" height="8"></a></li>
                 <li class="menu_item"><a href="#" class="menu_link">Integration</a></li>
                 <li class="menu_item"><a href="#" class="menu_link">Pricing</a></li>
                 <li class="menu_item"><a href="#" class="menu_link">Demo</a></li>
                 <li class="menu_item"><a href="#" class="menu_link">Resources<img src="images/chek_icon.svg" alt="Icon" class="chek_icon" width="8" height="8"></a></li>
             </ul>
         </nav>
-        <button type='button' class='button'>Start your free trial</button>
+        <button type="button" class="button">Start your free trial</button>
     </header>
 
     <main class="container">
         <section class="hero">
-            <div class="main_image">
-                <img src='images/first_picture.png' alt="Изображение" class="first_picture" width="678" height="678">
-                <img src='images/simplify.svg' alt="Вектор" class="vector" width="852" height="604">
+            <div class="illustration">
+                <img src="images/Illustration.png" alt="Изображение" class="picture" width="678" height="678">
             </div>
-            <div class="hero_subtitle">
-                <p>Manage all your social media accounts in one place and save time.</p>
-            </div>
-            <ul class="hero_button">
-                <li><button class="button">Start your free trial</button></li>
-                <li><button class="button2">Request a demo</button></li>
-            </ul>
-            <div class="hero_note">
-                <p>No credit card required.</p>
+            <div class="hero_frame">
+                <div class="hero_subtitle">
+                    <p>Manage all your social media accounts in one place and save time.</p>
+                </div>
+                <ul class="hero_button">
+                    <li><button class="button">Start your free trial</button></li>
+                    <li><button class="button2">Request a demo</button></li>
+                </ul>
+                <div class="hero_note">
+                    <p>No credit card required.</p>
+                </div>
             </div>
         </section>
 
         <section class="brand">
             <div class="dashboard_image">
-                <img src="images/dashboard.jpg" alt="Dashboard" class="dashboard" width="1098" height="780">
+                <img src="images/dashboard.png" alt="Dashboard" class="dashboard" width="1098" height="780">
             </div>
-            <div class="brand_title">
-                <p>Trust by 99,000+ world-class brands and organizations</p>
+            <div class="logo_wrapper">
+                <div class="brand_title">
+                    <p>Trust by 99,000+ world-class brands and organizations</p>
+                </div>
+                <ul class="logotypes">
+                    <li><img src="images/logo_1.svg" alt="Логотип 1" class="logotype" width="300" height="120"></li>
+                    <li><img src="images/logo_2.svg" alt="Логотип 2" class="logotype" width="180" height="120"></li>
+                    <li><img src="images/logo_3.svg" alt="Логотип 3" class="logotype" width="259" height="120"></li>
+                    <li><img src="images/logo_4.svg" alt="Логотип 4" class="logotype" width="282" height="120"></li>
+                    <li><img src="images/logo_5.svg" alt="Логотип 5" class="logotype" width="185" height="120"></li>
+                    <li><img src="images/logo_6.svg" alt="Логотип 6" class="logotype" width="261" height="120"></li>
+                </ul>
             </div>
-            <ul class="logotypes">
-                <li><img src="images/logo_1.svg" alt="Логотип 1" class="logos" width="300" height="120"></li>
-                <li><img src="images/logo_2.svg" alt="Логотип 2" class="logos" width="180" height="120"></li>
-                <li><img src="images/logo_3.svg" alt="Логотип 3" class="logos" width="259" height="120"></li>
-                <li><img src="images/logo_4.svg" alt="Логотип 4" class="logos" width="282" height="120"></li>
-                <li><img src="images/logo_5.svg" alt="Логотип 5" class="logos" width="185" height="120"></li>
-                <li><img src="images/logo_6.svg" alt="Логотип 6" class="logos" width="261" height="120"></li>
-            </ul>
         </section>
 
         <section class="features">
@@ -68,26 +71,32 @@
                 <p class="features_subtitle">Everything you need to manage, schedule, and analizy your social media accounts.</p>
             </div>
             <ul class="features_images">
-                <li class="feature_image">
-                    <img src="images/unified_dashboard.png" alt="unified_dashboard" class="features_image" width="368" height="500">
-                    <p class="feat_title"><b>Unified Dashboard</b></p>
-                    <p class="feat_subtitle">Connect and synchronize with pipular tools easily.</p>
+                <li class="feature_card">
+                    <img src="images/unified_dashboard.png" alt="unified_dashboard" class="feature_image" width="368" height="500">
+                    <div class feature_text>
+                        <p class="feature_title"><b>Unified Dashboard</b></p>
+                        <p class="feature_subtitle">Connect and synchronize with pipular tools easily.</p>
+                    </div>
                 </li>
-                <li class="feature_image">
-                    <img src="images/content_scheduler.png" alt="content_scheduler" class="features_image" width="368" height="500">
-                    <p class="feat_title"><b>Content Scheduler</b></p>
-                    <p class="feat_subtitle">Schedule posts in advance and keep your audience engaged around the clock.</p>
+                <li class="feature_card">
+                    <img src="images/content_scheduler.png" alt="content_scheduler" class="feature_image" width="368" height="500">
+                    <div class feature_text>
+                        <p class="feature_title"><b>Content Scheduler</b></p>
+                        <p class="feature_subtitle">Schedule posts in advance and keep your audience engaged around the clock.</p>
+                    </div>
                 </li>
-                <li class="feature_image">
-                    <img src="images/analytics_and_reporting.png" alt="analytics_and_reporting" class="features_image" width="368" height="500">
-                    <p class="feat_title"><b>Analitics and Reporting</b></p>
-                    <p class="feat_subtitle">Gain insigths into your social media perfomance with detailed analytics and reports.</p>
+                <li class="feature_card">
+                    <img src="images/analytics_and_reporting.png" alt="analytics_and_reporting" class="feature_image" width="368" height="500">
+                    <div class feature_text>
+                        <p class="feature_title"><b>Analitics and Reporting</b></p>
+                        <p class="feature_subtitle">Gain insigths into your social media perfomance with detailed analytics and reports.</p>
+                    </div>
                 </li>
             </ul>
         </section>
 
         <section class="case_study">
-            <div class="case">
+            <div class="case_text">
                 <h2 class="case_tittle">Trusted partnership and integration across platform</h2>
                 <p class="case_subtitle">Assist you in unifying your customer intractions and stauing ahead of changers in the media landscape.</p>
             </div>
@@ -97,17 +106,17 @@
         </section>
 
         <section class="stats">
-            <ul class="stats_images">
+            <ul class="stats_text">
                 <li class="stat">
-                    <h2 class="stat_title">90%+</h2>
+                    <h2 class="stat_title1">90%+</h2>
                     <p class="stat_subtitle"><b>Reduction in avarage time to first response</b></p>
                 </li>
                 <li class="stat">
-                    <h2 class="stat_title">1,500%</h2>
+                    <h2 class="stat_title2">1,500%</h2>
                     <p class="stat_subtitle"><b>Increase in total social media engagements</b></p>
                 </li>
                 <li class="stat">
-                    <h2 class="stat_title">4x</h2>
+                    <h2 class="stat_title3">4x</h2>
                     <p class="stat_subtitle"><b>Increase in average client retainer</b></p>
                 </li>
             </ul>
@@ -118,33 +127,45 @@
                 <h2 class="test_tittle">What Our Users Are Saying</h2>
                 <p class="test_subtitle">Join thousands of satisfied customers.</p>
             </div>
-            <ul class="peoples">
+            <ul class="testimonials_frame">
                 <li class="people">
-                    <img src='images/women.png' alt="women" class="human" width="107" height="128">
-                    <img src='images/people_background.png' class="back" width="336" height="243">
-                    <h3 class="name">Jane Doe</h3>
-                    <p class="subname">Social Media Manager at XYZ Corp</p>
-                    <p class="people_text">"This platform has revolutionized the way we manage our social media. Highly recommend!"</p>
+                    <div class="people_image">
+                        <img src='images/women.png' alt="women" class="human1" width="107" height="128">
+                        <img src='images/people_background.png' class="back" width="336" height="243">
+                    </div>
+                    <div class="people_text">
+                        <h3 class="name">Jane Doe</h3>
+                        <p class="subname">Social Media Manager at XYZ Corp</p>
+                        <p class="people_note">"This platform has revolutionized the way we manage our social media. Highly recommend!"</p>
+                    </div>
                 </li>
                 <li class="people">
-                    <img src='images/men.png' alt="man" class="human" width="107" height="128">
-                    <img src='images/people_background.png' class="back" width="336" height="243">
-                    <h3 class="name">John Smith</h3>
-                    <p class="subname">Digital Marketing Specialist</p>
-                    <p class="people_text">"The scheduling feature is a game-changer. Our engagement has never been higher."</p>
+                    <div class="people_image">
+                        <img src='images/men.png' alt="man" class="human2" width="107" height="128">
+                        <img src='images/people_background.png' class="back" width="336" height="243">
+                    </div>
+                    <div class="people_text"></div>
+                        <h3 class="name">John Smith</h3>
+                        <p class="subname">Digital Marketing Specialist</p>
+                        <p class="people_note">"The scheduling feature is a game-changer. Our engagement has never been higher."</p>
+                    </div>
                 </li>
                 <li class="people">
-                    <img src='images/girl.png' alt="girl" class="human" width="107" height="128">
-                    <img src='images/people_background.png' class="back" width="336" height="243">
-                    <h3 class="name">Mariah Courtney</h3>
-                    <p class="subname">Social Media Specialist at Flock</p>
-                    <p class="people_text">"This platform has thansformed our social media strategy. The unified dashboard and advanced analytics have made it so much easier to engage with our audienceand track our progress. We've seen a significant boost in our online prresence!"</p>
+                    <div class="people_image">
+                        <img src='images/girl.png' alt="girl" class="human3" width="107" height="128">
+                        <img src='images/people_background.png' class="back" width="336" height="243">
+                    </div>
+                    <div class="people_text"></div>
+                        <h3 class="name">Mariah Courtney</h3>
+                        <p class="subname">Social Media Specialist at Flock</p>
+                        <p class="people_note">"This platform has thansformed our social media strategy. The unified dashboard and advanced analytics have made it so much easier to engage with our audienceand track our progress. We've seen a significant boost in our online prresence!"</p>
+                    </div>
                 </li>
             </ul>
         </section>
 
         <section class="cta">
-            <div class="ctas">
+            <div class="cta_frame">
                 <h2 class="cta_tittle">Enterprise Solutions for Social Media at Scale</h2>
                 <p class="cta_text">Looking for a comprehensive platform your team will love? Canguu is the perfect choice. Discover how it can transform your entire business, offering industry insights, competitive intelligence, enhances customer service, and robust data analytics.</p>
                 <button type='button' class='cta_button'>Request a demo</button>
@@ -155,91 +176,131 @@
         </section>
 
         <section class="pricing">
-            <div class="pricings">
+            <div class="pricing_text">
                 <h2 class="pricing_title">Choose Your Plan</h2>
                 <p class="pricing_subtitle">Flexible pricing options to suit your needs</p>
             </div>
-            <ul class="plans">
+            <ul class="pricing_cards">
                 <li class="plan">
-                    <img src="images/plan_icon.svg" alt="План" class="plan_image" width="58" height="58">
-                    <h3 class="plan_tittle">Free</h3>
-                    <h3 class="plan_price">$0/<span>month</span></h3>
-                    <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                    <p class="choose_text">Basic Dashboard</p>
-                    <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                    <p class="choose_text">Content Scheduler</p>
-                    <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                    <p class="choose_text">Basic Analytics</p>
-                    <button class="button_choose">Get Started</button>
+                    <div class="plan_picture">
+                        <img src="images/plan_icon.svg" alt="План" class="plan_image" width="58" height="58">
+                    </div>
+                    <div class="plan_text">
+                        <h3 class="plan_tittle">Free</h3>
+                        <h3 class="plan_price">$0/<span>month</span></h3>
+                        <div class="chooses">
+                            <div class="one_choose">
+                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
+                                <p class="choose_text">Basic Dashboard</p>
+                            </div>
+                            <div class="one_choose">
+                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
+                                <p class="choose_text">Content Scheduler</p>
+                            </div>
+                            <div class="one_choose">
+                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
+                                <p class="choose_text">Basic Analytics</p>
+                            </div>
+                        </div>
+                        <button class="button_choose">Get Started</button>
+                    </div>
                 </li>
                 <li class="plan">
-                    <img src="images/plan_icon.svg" alt="План" class="plan_image" width="58" height="58">
-                    <h3 class="plan_tittle">Pro</h3>
-                    <h3 class="plan_price">$29/<span>month</span></h3>
-                    <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                    <p class="choose_text">All Free Features</p>
-                    <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                    <p class="choose_text">Advanced Analytics</p>
-                    <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                    <p class="choose_text">Social Listening</p>
-                    <button class="button_choose">Start your free trial</button>
+                    <div class="plan_picture">
+                        <img src="images/plan_icon.svg" alt="План" class="plan_image" width="58" height="58">
+                    </div>
+                    <div class="plan_text">
+                        <h3 class="plan_tittle">Pro</h3>
+                        <h3 class="plan_price">$29/<span>month</span></h3>
+                        <div class="chooses">
+                            <div class="one_choose">
+                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
+                                <p class="choose_text">All Free Features</p>
+                            </div>
+                            <div class="one_choose">
+                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
+                                <p class="choose_text">Advanced Analytics</p>
+                            </div>
+                            <div class="one_choose">
+                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
+                                <p class="choose_text">Social Listening</p>
+                            </div>
+                        </div>
+                        <button class="button_choose">Start your free trial</button>
+                    </div>
                 </li>
                 <li class="plan">
-                    <img src="images/plan_icon.svg" alt="План" class="plan_image" width="58" height="58">
-                    <h3 class="plan_tittle">Enteprise</h3>
-                    <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                    <p class="choose_text">All Pro Features</p>
-                    <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                    <p class="choose_text">Dedicates Account Manager</p>
-                    <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                    <p class="choose_text">Custom Integrations</p>
-                    <button class="button_choose">Contact Us</button>
+                    <div class="plan_picture">
+                        <img src="images/plan_icon.svg" alt="План" class="plan_image" width="58" height="58">
+                    </div>
+                    <div class="plan_text">
+                        <h3 class="plan_tittle">Enteprise</h3>
+                        <div class="chooses">
+                            <div class="one_choose">
+                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
+                                <p class="choose_text">All Pro Features</p>
+                            </div>
+                            <div class="one_choose">
+                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
+                                <p class="choose_text">Dedicates Account Manager</p>
+                            </div>
+                            <div class="one_choose">
+                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
+                                <p class="choose_text">Custom Integrations</p>
+                            </div>
+                        </div>
+                        <button class="button_choose">Contact Us</button>
+                    </div>
                 </li>
             </ul>
         </section>
 
         <section class="faq">
-            <div class="faqs">
+            <div class="faq_text">
                 <h2 class="faq_tittle">Frequently Asked Questions</h2>
                 <p class="faq_subtitle">Have questions? We've got answers.</p>
             </div>
             <ul class="questions">
                 <li class="question">
                     <p class="question_title"><b>Can I schedule posts for multiple acoounts at once?</b></p>
-                    <p class="answer">&&&</p>
+                    <img src="images/plus.svg" alt="Plus" class="plus" width="24" height="24">
                 </li>
                 <li class="question">
                     <p class="question_title"><b>How do I connect my social media accounts?</b></p>
-                    <p class="answer">Sumply do to the settings and click on 'Connect Accounts'. Follow the promts to link your social media profiles.</p>
+                    <img src="images/plus.svg" alt="Plus" class="plus" width="24" height="24">
                 </li>
                 <li class="question">
                     <p class="question_title"><b>Is there a mobile app?</b></p>
-                    <p class="answer">&&&</p>
+                    <img src="images/plus.svg" alt="Plus" class="plus" width="24" height="24">
                 </li>
             </ul>
         </section>
     </main>
 
     <footer class="container">
-        <div class sub_form>
+        <div class="horizontal">
             <div class="footer_sub">
-                <h2 class="footer_title">Stay Updated</h2>
-                <p class="footer subtitle">Subscribe to our newsietter for the latest news and updates.</p>
-            </div>
-            <form class="form">
+                <div class="footer_text">
+                    <h2 class="footer_title">Stay Updated</h2>
+                    <p class="footer_subtitle">Subscribe to our newsietter for the latest news and updates.</p>
+                </div>
                 <input type="email" name="email" placeholder="Your email" class="subscribe" required>
                 <button class="join_button">Join</button>
-            </form>
-        </div>
-        <div class="list">
-            <p class="list_name"><a href="#">Platform</a></p>
-            <p class="list_name"><a href="#">Solutions</a></p>
-            <p class="list_name"><a href="#">Integration</a></p>
-            <p class="list_name"><a href="#">Pricing</a></p>
-            <p class="list_name"><a href="#">Demo</a></p>
-            <p class="list_name"><a href="#">Resources</a></p>
-            <p class="list_name"><a href="#">Privasy policy</a></p>
-            <p class="list_name"><a href="#">Terms od service</a></p>
+            </div>
+            <div class="lists">
+                <div class="list1">
+                    <p class="list_name"><a href="#">Platform</a></p>
+                    <p class="list_name"><a href="#">Solutions</a></p>
+                    <p class="list_name"><a href="#">Integration</a></p>
+                    <p class="list_name"><a href="#">Pricing</a></p>
+                    <p class="list_name"><a href="#">Demo</a></p>
+                    <p class="list_name"><a href="#">Resources</a></p>
+                </div>
+                <div class="list2">
+                    <p class="list_name"><a href="#">Privasy policy</a></p>
+                    <p class="list_name"><a href="#">Terms od service</a></p>
+                </div>
+            </div>
         </div>
         <div class="footer_logo">
             <img src='images/logo_full.svg' alt='Логотип' class='logo_footer' width='1443' height='364'>

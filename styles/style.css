@@ -28,16 +28,20 @@ body{
     display: flex;
     gap: 24px; 
 }
+.menu_item{
+    display: flex;
+    flex-direction: row;
+    gap: 12;
+}
 .menu_link{
     font-family: 'Rubik', sans-serif; 
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    gap: 12px;
     color: #ffffff;
     text-decoration: none;
 }
-.chek_icon{
+.dropdown{
     width: 8px;
     height: 8px;
     margin-left: 12px;
@@ -63,8 +67,7 @@ body{
     gap: 24px;
     padding: 80px 0;
 }
-.main_image{
-    position: relative;
+.illustration{
     width: 852px;
     height: 604px;
     display: flex;
@@ -72,17 +75,8 @@ body{
     align-items: center;
     margin: 0 auto;
 }
-.first_picture{
-    position: absolute;
-    z-index: 1;
-    width: 678px;
-    height: auto;
-}
-.vector{
-    position: absolute;
-    width: 852px;
-    height: auto;
-    z-index: 2;
+.hero_frame{
+    gap: 24px;
 }
 .hero_subtitle{
     font-family: 'Inter', sans-serif; 
@@ -95,8 +89,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 193,5px;
-    height: 48px;
+    width: 403px;
     list-style: none;
 }
 .button2{
@@ -130,6 +123,12 @@ body{
     width: 1098px;
     height: 780px;
 }
+.logo_wrapper{
+    gap: 16px;
+    padding: 24px 40 px;
+    display: flex;
+    flex-direction: column;
+}
 .brand_title{
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
@@ -142,12 +141,23 @@ body{
     gap: 16px;
     list-style: none;
 }
+.logotype{
+    gap: 10px;
+    padding: 40px 40px;
+}
 .features{
-    padding: 100px 80;
+    gap: 40px;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
 }
 .features_text{
+    gap: 8px;
     text-align: center;
     margin-bottom: 40px;
+    width: 530px;
+    display: flex;
+    flex-direction: column;
 }
 .features_title{
     font-family: 'Rubik', sans-serif;
@@ -168,12 +178,22 @@ body{
     text-align: center;
     justify-content: space-between;
 }
+.feature_card{
+    width: 368px;
+    gap: 16px;
+    padding: 16px 16px;
+    display: flex;
+    flex-direction: column;
+}
 .feature_image{
     width: 368px;
     height: 500px;
+}
+.feature_text{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    text-align: left;
+    gap: 8px;
 }
 .feat_title{
     font-family: 'Rubik', sans-serif;
@@ -194,6 +214,13 @@ body{
     gap: 40px;
     padding: 80px 40px;
 }
+.case_text{
+    width: 530px;
+    gap: 8px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
 .case_tittle{
     font-family: 'Rubik', sans-serif;
     font-size: 32px;
@@ -210,14 +237,19 @@ body{
     width: 790px;
     height: 362px;
 }
-.stats_images{
+.stats{
+    gap: 40px;
+    padding: 80px 40px;
+}
+.stats_text{
     display: flex;
+    flex-direction: row;
     gap: 24px;
     padding: 80px 24px;
     width: 1360px;
     margin: 0 auto;
     background-color: gray;
-    border: 1px solid #ffffff;
+    border: 1px solid #ffffffac;
 }
 .stat{
     display: flex;
@@ -225,21 +257,35 @@ body{
     gap: 8px;
     text-align: center;
     width: 421px;
-    border: 1px solid #ffffff
+    border-right: 1px solid #ffffffac;
 }
-.stat_title{
+.stat_title1{
     font-family: 'Rubik', sans-serif;
     font-size: 32px;
     font-weight: 500;
     line-height: 40px;
     color: #C6C7F8;
 }
+.stat_title2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #BAEDBD;
+}
+.stat_title3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #95A4FC;
+}
 .stat_subtitle{
     font-size: 20px;
     line-height: 24px;
 }
 .testimonials{
-    padding: 100px 80px;
+    padding: 80px 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -265,8 +311,9 @@ body{
     font-weight: 400;
     line-height: 24px;
 }
-.peoples{
+.testimonial_frame{
     display: flex;
+    flex-direction: row;
     gap: 24px;
 }
 .people{
@@ -277,14 +324,34 @@ body{
     width: 368px;
     gap: 16px;
     padding: 16px 16px;
-    position: relative;
 }
-.human{
+.people_image{
+    position: relative;
+    height: 243px;
+}
+.human1{
     width: 107px;
     height: 128 px;
     border-radius: 12px;
     position: absolute;
     z-index: 1;
+    background-color: #BAEDBD;
+}
+.human2{
+    width: 107px;
+    height: 128 px;
+    border-radius: 12px;
+    position: absolute;
+    z-index: 1;
+    background-color: #95A4FC;
+}
+.human3{
+    width: 107px;
+    height: 128 px;
+    border-radius: 12px;
+    position: absolute;
+    z-index: 1;
+    background-color: #C6C7F8;
 }
 .back{
     width: 336;
@@ -292,29 +359,33 @@ body{
     position: absolute;
     z-index: 2;
 }
+.people_text{
+    gap: 24px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
 .name{
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-weight: 500;
     margin-top: 16px;
-    text-align: left;
 }
 .subname{
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    text-align: left;
 }
-.people_text{
+.people_note{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     margin-top: 12px;
-    text-align: left;
 }
 .cta{
-    padding: 100px 80px;
+    padding: 80px 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -322,11 +393,13 @@ body{
     background-color: white;
     color: black;
 }
-.ctas{
+.cta_frame{
     display: flex;
     flex-direction: column;
     gap: 24px;
-    max-width: 500px;
+    width: 530px;
+    text-align: left;
+    color: black;
 }
 .cta_title{
     font-family: 'Rubik', sans-serif;
@@ -343,6 +416,8 @@ body{
 }
 .cta_image{
     background-color: #2B2B2B;
+    padding: 40px 40px;
+    gap: 10px;
 }
 .cta_button{
     width: 153px;
@@ -353,9 +428,9 @@ body{
     line-height: 24px;
     padding: 12px 16px;
     gap: 20px;
-    background-color: #f8f8f80d;
-    color: #fefeff;
-    border: 1px solid #f8f8f81a;
+    background-color: #fefeff;
+    color: black;
+    border: 1px solid #2B2B2B;
     border-radius: 12px;
 }
 .analitics{
@@ -363,7 +438,15 @@ body{
     height: 313px;
 }
 .pricing{
-    padding: 100px 0;
+    padding: 80px 40px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.pricing_text{
+    gap 8px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 .pricing_title{
@@ -379,24 +462,27 @@ body{
     line-height: 24px;
     margin-bottom: 24px;
 }
-.plans{
-    width: 415px;
-    height: 430px;
+.pricing_cards{
     display: flex;
     flex-direction: row;
-    gap: px;
-    padding: 40px;
-    border-radius: 20px;
-    align-items: flex-start;
+    gap: 24px;
     list-style: none;
 }
 .plan{
-    padding: 40px;
+    padding: 24px 24px;
+    gap: 24px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
 }
-.plan_image{
+.plan_picture{
     width: 58px;
     height: 58px;
+}
+.plan_text{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ffffffac;
 }
 .plan_tittle{
     font-family: 'Rubik', sans-serif;
@@ -410,6 +496,16 @@ body{
     font-size: 32px;
     line-height: 40px;
 }
+.chooses{
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+}
+.one_choose{
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+}
 .choose_text{
     display: flex;
     align-items: center;
@@ -420,23 +516,31 @@ body{
     height: 24px;
 }
 .button_choose{
-    width: 367px;
-    height: 48px;
-    margin-top: auto;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12px 16px;
+    gap: 20px;
+    background-color: #2B2B2B;
+    color: white;
+    border: 1px solid #fefeff;
+    border-radius: 12px;
 }
 .faq{
-    padding: 100px 80px;
+    padding: 80px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 40px;
 }
-.faqs{
+.faq_text{
     text-align: center;
     display:flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
+    width: 530px;
 }
 .faq-tittle{
     font-family: 'Rubik', sans-serif;
@@ -459,9 +563,8 @@ body{
 }
 .question{
     display: flex;
-    flex-direction: column;
-    gap: 12px;
-    padding: 24px;
+    flex-direction: row;
+    padding: 24px 40px;
     border-bottom:1px solid #333;
 }
 .question_title{
@@ -473,22 +576,26 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.answer{
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-}
 .footer{
-    padding: 100px 80;
+    padding: 40px 40px;
     display: flex;
     flex-direction: column;
-    gap: 60px;
     border-top: 1 px solid #333;
 }
-.sub_form{
+.horizontal{
+    gap: auto;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
+}
+.footer_sub{
+    display: flex;
+    flex-direction: colomn;
+    gap: 24px;
+}
+.footer_text{
+    text-align: left;
+    gap: 4px;
 }
 .footer_title{
     font-family: 'Rubik', sans-serif;
@@ -502,23 +609,17 @@ body{
     line-height: 22px;
 }
 .form{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    background-color: #2B2B2B;
-    color: #ffffff;
 }
 .subscribe{
-    border-top: 1 px solid #333;
-    border-radius: 8px;
-    padding: 12px;
-    border-radius: 8px;
+    border-bottom: 1 px solid #333;
+    padding: 12px 12px;
     color: white;
     font-family: 'Rubik', sans-serif;
     font-size: 12px;
     width: 394px;
     height: 48px;
-    padding: 12px 16px;
+    background-color: #2B2B2B;
+    text-align: left;
 }
 .join_button{
     width: 394px;
@@ -532,10 +633,22 @@ body{
     color: #fefeff;
     border: 1px solid #f8f8f81a;
     border-radius: 12px;
+    text-align: center;
 }
-.list{
+.lists{
+    gap: 24px;
     display: flex;
-    gap: 60px;
+    flex-direction: row;
+}
+.list1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.list2{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 .list_name{
     font-family: 'Inter', sans-serif;
