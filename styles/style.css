@@ -85,7 +85,7 @@ body{
 }
 .hero_button{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 16px;
     width: 403px;
     list-style: none;
@@ -456,6 +456,7 @@ body{
     gap: 24px;
     list-style: none;
     align-items: center;
+    justify-content: center;
 }
 .plan{
     padding: 24px 24px;
