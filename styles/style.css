@@ -316,46 +316,35 @@ body{
 .people{
     display: flex;
     flex-direction: row;
-    align-items: center;
     text-align: center;
     width: 368px;
     gap: 16px;
     padding: 16px 16px;
 }
 .people_image{
-    position: relative;
     height: 243px;
-    align-items:center;
 }
 .human1{
     width: 107px;
     height: 128 px;
     border-radius: 12px;
-    position: absolute;
-    z-index: 1;
     background-color: #BAEDBD;
 }
 .human2{
     width: 107px;
     height: 128 px;
     border-radius: 12px;
-    position: absolute;
-    z-index: 1;
     background-color: #95A4FC;
 }
 .human3{
     width: 107px;
     height: 128 px;
     border-radius: 12px;
-    position: absolute;
-    z-index: 1;
     background-color: #C6C7F8;
 }
 .back{
     width: 336;
     height: 243px;
-    position: absolute;
-    z-index: 2;
 }
 .people_text{
     gap: 24px;
