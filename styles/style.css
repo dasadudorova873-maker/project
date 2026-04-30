@@ -570,6 +570,7 @@ body{
     width:24px;
     height: 24px;
     margin: left;
+}
 .footer{
     padding: 40px 40px;
     display: flex;
@@ -584,7 +585,6 @@ body{
 }
 .footer_sub{
     display: flex;
-    flex-direction: column;
     gap: 24px;
 }
 .footer_text{
