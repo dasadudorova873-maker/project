@@ -420,6 +420,7 @@ body{
     color: black;
     border: 1px solid #2B2B2B;
     border-radius: 12px;
+    display: inline-block;
 }
 .analitics{
     width: 540px;
@@ -602,8 +603,6 @@ body{
     font-size: 14px;
     line-height: 22px;
 }
-.form{
-}
 .subscribe{
     border-bottom: 1 px solid #333;
     padding: 12px 12px;
@@ -639,12 +638,14 @@ body{
     flex-direction: column;
     gap: 8px;
     list-style: none;
+    text-decoration: none;
 }
 .list2{
     display: flex;
     flex-direction: column;
     gap: 8px;
     list-style: none;
+    text-decoration: none;
 }
 .list_name{
     font-family: 'Inter', sans-serif;
