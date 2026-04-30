@@ -350,7 +350,7 @@ body{
     background-color: #BAEDBD;
     position: absolute;
     z-index: 2;
-    bottom: 120px;
+    bottom: 110px;
 }
 .human2{
     width: 107px;
@@ -359,7 +359,7 @@ body{
     background-color: #95A4FC;
     position: absolute;
     z-index: 2;
-    bottom: 120px;
+    bottom: 110px;
 }
 .human3{
     width: 107px;
@@ -368,7 +368,7 @@ body{
     background-color: #C6C7F8;
     position: absolute;
     z-index: 2;
-    bottom: 120px;
+    bottom: 110px;
 }
 .back{
     width: 336;
