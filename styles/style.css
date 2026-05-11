@@ -17,7 +17,6 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 16px 40px;
-    height: 80px;
 }
 .logo_image{
     width: 172px;
@@ -31,7 +30,7 @@ body{
 .menu_item{
     display: flex;
     flex-direction: row;
-    gap: 12;
+    gap: 12px;
 }
 .menu_link{
     font-family: 'Rubik', sans-serif; 
@@ -77,13 +76,13 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    width: 403px;
 }
 .hero_subtitle{
     font-family: 'Inter', sans-serif; 
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    width: 403px;
     text-align: center;
 }
 .hero_button{
@@ -109,7 +108,6 @@ body{
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    width: 403px;
     text-align: center;
 }
 .brand{
