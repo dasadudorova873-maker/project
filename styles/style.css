@@ -65,7 +65,6 @@ body{
     padding: 80px 0;
 }
 .illustration{
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
