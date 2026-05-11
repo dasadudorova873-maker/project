@@ -65,10 +65,10 @@ body{
     padding: 80px 0;
 }
 .illustration{
+    width:100%
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
 }
 .hero_frame{
     display: flex;
