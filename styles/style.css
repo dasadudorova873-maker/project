@@ -333,6 +333,7 @@ body{
     text-align: center;
     gap: 16px;
     padding: 16px 16px;
+    align-items: center;
 }
 .people_image{
     height: 243px;
