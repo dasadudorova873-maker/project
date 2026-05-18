@@ -186,8 +186,7 @@ body{
     flex-direction: column;
 }
 .feature_image{
-    width: 368px;
-    height: 500px;
+    width: 100%;
 }
 .feature_text{
     display: flex;
@@ -326,6 +325,7 @@ body{
     gap: 24px;
     flex-wrap: nowrap;
     width: 100%;
+    align-items: center;
 }
 .people{
     display: flex;
