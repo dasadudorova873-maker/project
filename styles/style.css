@@ -258,7 +258,6 @@ body{
     width: 100%;
     margin: 0 auto;
     background-color:#353535;
-    border: 1px solid #ffffffac;
 }
 .stat{
     display: flex;
