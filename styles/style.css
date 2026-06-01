@@ -152,7 +152,7 @@ body{
     list-style: none;
 }
 .logotype{
-    padding: 4rem 4rem;
+    gap: 1rem;
 }
 .features{
     gap: 4rem;
