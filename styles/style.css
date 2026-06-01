@@ -229,7 +229,6 @@ body{
     padding: 8rem 4rem;
 }
 .case_text{
-    width: 53rem;
     gap: 0.8rem;
     text-align: left;
     display: flex;
