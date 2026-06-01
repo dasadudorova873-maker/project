@@ -1,6 +1,9 @@
 *, ::before, ::after{
     box-sizing: border-box;
 }
+html{
+    fon-size: 16px;
+}
 .root{
     font-size: 62.5%;
 }
