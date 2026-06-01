@@ -14,8 +14,7 @@ body{
     line-height: 2.4rem;
 }
 .container{
-    max-width: 144rem;
-    width: 100%;
+    width: 1440px;
     margin: 0 auto;
 }
 .header{
