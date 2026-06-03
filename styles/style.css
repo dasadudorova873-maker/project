@@ -70,7 +70,7 @@ body{
     box-shadow: 0 8rem 24rem rgba(108, 99, 255, 0.25);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button:hover, .button_choose:hover, .button2:hover{
+.button:hover, .button_choose:hover, .button2:hover, .cta_button:hover{
     box-shadow: 0 15px 30px rgba(108, 99, 255, 0.25);
     filter: brightness(1.1);
 }
@@ -105,6 +105,7 @@ body{
 }
 .hero_button{
     display: flex;
+    flex: 1;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -720,6 +721,7 @@ body{
     border: 1px solid #f8f8f81a;
     border-radius: 12px;
     text-align: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer_form{
     display: flex;
