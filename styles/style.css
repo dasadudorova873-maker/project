@@ -638,7 +638,7 @@ body{
 }
 .question{
     display: flex;
-    flex-direction: wrap;
+    flex-wrap: wrap;
     padding: 24px 40px;
     border-bottom: 1px solid #333;
     justify-content: space-between;
@@ -660,7 +660,7 @@ body{
 question.active .plus{
     transform: rotate(45deg);
 }
-.question_answer{
+.answer{
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -668,11 +668,11 @@ question.active .plus{
     display: flex;
     align-items: center;
 }
-.question .question_answer{
+.question .answer{
     display: none;
     width: 100%;
 }
-.question.active .question_answer{
+.question.active .answer{
     display: block;
 }
 .footer{
