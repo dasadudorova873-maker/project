@@ -770,7 +770,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(108, 99, 255, 0.25)
+    background: rgba(0, 0, 0, 0.6)
 }
 .application{
     position: absolute;
@@ -788,13 +788,19 @@ body{
     color:#fefeff;
 }
 .application_title{
-    font-size: 36px;
+    font-size: 32px;
 }
 .application_form{
     width: 500px;
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    gap: 16px;
+}
+.application_input{
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 14px 16px;
 }
 .application_close{
     position: absolute;
@@ -811,7 +817,6 @@ body{
         padding: 0 15px;
     }
     .header{
-        flex-direction: column;
         gap: 2rem;
         padding: 2rem 1rem;
         text-align: center;
@@ -842,6 +847,9 @@ body{
         flex-direction: column;
         text-align: center;
         gap: 40px;
+    }
+    .case_study{
+        flex-direction: column;
     }
     .case_text{
         align-items: center;
