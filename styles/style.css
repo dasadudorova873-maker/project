@@ -670,6 +670,7 @@ question.active .plus{
 }
 .question .question_answer{
     display: none;
+    width: 100%;
 }
 .question.active .question_answer{
     display: block;
