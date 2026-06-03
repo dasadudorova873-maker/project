@@ -26,6 +26,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 1.6rem 4rem;
+    width: 100%;
 }
 .logo_image{
     width: 17.2rem;
