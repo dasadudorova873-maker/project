@@ -1,13 +1,13 @@
 *, ::before, ::after{
     box-sizing: border-box;
 }
-html{
-    fon-size: 16px;
-}
 .root{
     font-size: 62.5%;
 }
-h1, h2, p {
+html{
+    font-size: 16px;
+}
+h1, h2, h3, p {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -17,8 +17,8 @@ body{
     font-family: 'Rubik', sans-serif;
     margin: 0;
     padding: 0;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
+    font-size: 16px;
+    line-height: 24px;
 }
 .container{
     width: 1440px;
@@ -67,14 +67,20 @@ body{
     color: #fefeff;
     border: 0.1rem solid #f8f8f81a;
     border-radius: 1.6rem;
+    box-shadow: 0 8rem 24rem rgba(108, 99, 255, 0.25);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button:hover, .button_choose:hover, .button2:hover{
+    box-shadow: 0 15px 30px rgba(108, 99, 255, 0.25);
+    filter: brightness(1.1);
 }
 .hero{
     text-align: center;
     display:flex;
     flex-direction: column;
     align-items: center;
-    gap: 2.4rem;
-    padding: 8rem 0;
+    gap: 24px;
+    padding: 80px 0;
 }
 .illustration{
     top: 0;
@@ -82,44 +88,45 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 11rem;
+    bottom: 110px;
 }
 .hero_frame{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2.4rem;
+    gap: 24px;
 }
 .hero_subtitle{
     font-family: 'Inter', sans-serif; 
     font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
+    font-size: 16px;
+    line-height: 24px;
     text-align: center;
 }
 .hero_button{
     display: flex;
     justify-content: center;
-    gap: 1.6rem;
+    gap: 16px;
     list-style: none;
     width: 100%;
 }
 .button2{
-    padding: 1.2rem 1.6rem;
+    padding: 12px 16px;
     font-family: 'Rubik', sans-serif; 
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    gap: 2rem;
+    font-size: 16px;
+    line-height: 24px;
+    gap: 20px;
     background-color: #f8f8f80d;
     color: #fefeff;
-    border: 0.1rem solid #f8f8f81a;
-    border-radius: 1.6rem;
+    border: 1px solid #f8f8f81a;
+    border-radius: 16px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero_note{
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 2rem;
+    font-size: 14px;
+    line-height: 20px;
     text-align: center;
 }
 .brand{
@@ -127,144 +134,147 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 98.2rem;
+    height: 982px;
 }
 .dashboard{
-    width: 109.8rem;
-    height: 78rem;
+    width: 1098px;
+    height: 780px;
+    border-radius: 16px;
+    display: block;
+    box-shadow: 0px 40px 100px rgba(0, 0, 0, 0.95);
+    animation: float 6s ease-in-out infinite;
 }
 .logo_wrapper{
-    gap: 1.6rem;
-    padding: 2.4rem 4rem;
+    gap: 16px;
+    padding: 24px 40px;
     display: flex;
     flex-direction: column;
 }
 .brand_title{
     font-family: 'Rubik', sans-serif;
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 2.4rem;
+    line-height: 24px;
 }
 .logotypes{
     display:flex;
     align-items: center;
-    gap: 1.6rem;
+    gap: 16px;
     list-style: none;
 }
-.logotype{
-    gap: 1rem;
-}
 .features{
-    gap: 4rem;
-    padding: 8rem 4rem;
+    gap: 40px;
+    padding: 80px 40px;
     display: flex;
     flex-direction: column;
     align-items: center
 }
 .features_text{
-    gap: 0.8rem;
-    width: 53rem;
+    gap: 8px;
+    width: 530px;
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 40px;
     align-items: flex-start;
     display: flex;
     flex-direction: column;
 }
 .features_title{
     font-family: 'Rubik', sans-serif;
-    font-size: 3.2rem;
+    font-size: 32px;
     font-weight: 500;
-    line-height: 4rem;
+    line-height: 40px;
 }
 .features_subtitle{
     font-family: 'Inter', sans-serif;
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 2.4rem;
+    line-height: 24px;
 }
 .features_images{
     display: flex;
-    gap: 4rem;
+    gap: 40px;
     align-items: center;
     text-align: center;
     justify-content: space-between;
 }
 .feature_card{
-    width: 36.8rem;
-    gap: 1.6rem;
-    padding: 1.6rem 1.6rem;
+    width: 368px;
+    gap: 16px;
+    padding: 16px 16px;
     display: flex;
     flex-direction: column;
 }
 .feature_image{
     width: 100%;
-    height: 34.4rem;
+    height: 344px;
 }
 .feature_text{
     display: flex;
     flex-direction: column;
     text-align: left;
     align-items: flex-start;
-    gap: 0.8rem;
+    gap: 8px;
 }
 .feat_title{
     font-family: 'Rubik', sans-serif;
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 2.4rem;
+    line-height: 24px;
     text-align: left;
 }
 .feat_subtitle{
     font-family: 'Rubik', sans-serif;
-    font-size: 1.4rem;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 2rem;
+    line-height: 20px;
     text-align: left;
 }
 .case_study{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    gap: 4rem;
-    padding: 8rem 4rem;
+    gap: 40px;
+    padding: 80px 40px;
 }
 .case_text{
-    width: 53rem;
-    gap: 0.8rem;
+    width: 530px;
+    gap: 8px;
     text-align: left;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 .case_tittle{
     font-family: 'Rubik', sans-serif;
-    font-size: 3.2rem;
+    font-size: 32px;
     font-weight: 500;
-    line-height: 4rem;
+    line-height: 40px;
 }
 .case_subtitle{
     font-family: 'Inter', sans-serif;
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 2.4rem;
+    line-height: 24px;
     color: #bbbbbb;
 }
 .social_medias{
-    width: 79rem;
-    height: 36.2rem;
+    width: 790px;
+    height: 362px;
 }
 .stats{
     display: flex;
-    gap: 4rem;
-    padding: 8rem 4rem;
+    gap: 40px;
+    padding: 80px 40px;
 }
 .stats_text{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 2.4rem;
-    padding: 8rem 2.4rem;
-    max-width: 136rem;
+    gap: 24px;
+    padding: 80px 24px;
+    max-width: 1360px;
     width: 100%;
     margin: 0 auto;
     background-color:#353535;
@@ -272,73 +282,73 @@ body{
 .stat{
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 8px;
     text-align: center;
-    width: 42.1rem;
-    border-right: 0.1rem solid #ffffffac;
+    width: 421px;
+    border-right: 1px solid #ffffffac;
 }
 .stat:last-child{
     border-right: none;
 }
 .stat_title1{
     font-family: 'Rubik', sans-serif;
-    font-size: 3.2rem;
+    font-size: 32px;
     font-weight: 500;
-    line-height: 4rem;
+    line-height: 40px;
     color: #C6C7F8;
 }
 .stat_title2{
     font-family: 'Rubik', sans-serif;
-    font-size: 3.2rem;
+    font-size: 32px;
     font-weight: 500;
-    line-height: 4rem;
+    line-height: 40px;
     color: #BAEDBD;
 }
 .stat_title3{
     font-family: 'Rubik', sans-serif;
-    font-size: 3.2rem;
+    font-size: 32px;
     font-weight: 500;
-    line-height: 4rem;
+    line-height: 40px;
     color: #95A4FC;
 }
 .stat_subtitle{
-    font-size: 2rem;
-    line-height: 2.4rem;
+    font-size: 20px;
+    line-height: 24px;
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
 }
 .testimonials{
-    padding: 8rem 4rem;
+    padding: 80px 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4rem;
+    gap: 40px;
 }
 .test_text{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.8rem;
+    gap: 8px;
     text-align: center;
 }
 .test_title{
     font-family: 'Rubik', sans-serif;
-    font-size: 3.2rem;
+    font-size: 32px;
     font-weight: 500;
-    line-height: 4rem;
+    line-height: 40px;
 }
 .test_subtitle{
     font-family: 'Inter', sans-serif;
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 2.4rem;
+    line-height: 24px;
 }
 .testimonials_frame{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
-    gap: 2.4rem;
+    gap: 24px;
     flex-wrap: nowrap;
     width: 100%;
 }
@@ -346,51 +356,52 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.6rem;
-    padding: 1.6rem 1.6rem;
+    gap: 16px;
+    padding: 16px 16px;
+    transition: all 0.4s ease;
 }
 .people_image{
-    height: 24.3rem;
-    width: 33.6rem;
+    height: 243px;
+    width: 336px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     position: relative;
 }
 .human1{
-    width: 10.7rem;
-    height: 12.8rem;
-    border-radius: 1.2rem;
+    width: 107px;
+    height: 128px;
+    border-radius: 12px;
     background-color: #BAEDBD;
     position: absolute;
     z-index: 2;
-    bottom: 10rem;
+    bottom: 100px;
 }
 .human2{
-    width: 10.7rem;
-    height: 12.8rem;
-    border-radius: 1.2rem;
+    width: 107px;
+    height: 128px;
+    border-radius: 12px;
     background-color: #95A4FC;
     position: absolute;
     z-index: 2;
-    bottom: 10rem;
+    bottom: 100px;
 }
 .human3{
-    width: 10.7rem;
-    height: 12.8rem;
-    border-radius: 1.2rem;
+    width: 107px;
+    height: 128px;
+    border-radius: 12px;
     background-color: #C6C7F8;
     position: absolute;
     z-index: 2;
-    bottom: 10rem;
+    bottom: 100px;
 }
 .back{
-    width: 33.6rem;
-    height: 24.3rem;
+    width: 336px;
+    height: 243px;
     z-index: 1;
 }
 .people_text{
-    gap: 0.8rem;
+    gap: 8px;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -400,126 +411,134 @@ body{
 }
 .name{
     font-family: 'Rubik', sans-serif;
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 500;
     text-align: left;
-    line-height: 2.4rem;
+    line-height: 24px;
 }
 .subname{
     font-family: 'Inter', sans-serif;
-    font-size: 1.2rem;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 1.6rem;
+    line-height: 16px;
     text-align: left;
     color: #bbbbbb;
 }
 .people_note{
     font-family: 'Inter', sans-serif;
-    font-size: 1.2rem;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 1.6rem;
+    line-height: 16px;
     text-align: left;
     color: #bbbbbb;
 }
 .cta{
-    padding: 8rem 4rem;
+    padding: 80px 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2.4rem;
+    gap: 24px;
     background-color: #f7f7f7;
     color: black;
 }
 .cta_frame{
     display: flex;
     flex-direction: column;
-    gap: 2.4rem;
-    width: 53rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    width:100%;
+    width: 530px;
     text-align: left;
     color: black;
-    align-items: flex-start;
 }
 .cta_title{
     font-family: 'Rubik', sans-serif;
-    font-size: 3.2rem;
+    font-size: 32px;
     font-weight: 500;
-    margin-top: 4rem;
-    line-height: 4rem;
+    margin-top: 40px;
+    line-height: 40px;
 }
 .cta_text{
     font-family: 'Inter', sans-serif;
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 2.4rem;
-    margin-top: 0.8rem;
+    line-height: 24px;
+    margin-top: 8px;
 }
 .cta_image{
     background-color: #2B2B2B;
-    padding: 4rem 4rem;
-    gap: 1rem;
-    border-radius: 1.2rem;
+    padding: 40px 40px;
+    gap: 10px;
+    border-radius: 12px;
 }
 .cta_button{
     font-family: 'Rubik', sans-serif;
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 2.4rem;
-    padding: 1.2rem 1.6rem;
-    gap: 2rem;
+    line-height: 24px;
+    padding: 12px 16px;
+    gap: 20px;
     background-color: #fefeff;
     color: black;
-    border: 0.1rem solid #2B2B2B;
-    border-radius: 1.2rem;
+    border: 1px solid #2B2B2B;
+    border-radius: 12px;
 }
 .analitics{
-    width: 54rem;
-    height: 31.3rem;
+    width: 540px;
+    height: 313px;
 }
 .pricing{
-    padding: 8rem 4rem;
-    gap: 4rem;
+    padding: 80px 40px;
+    gap: 40px;
     display: flex;
     flex-direction: column;
 }
 .pricing_text{
-    gap: 0.8rem;
+    gap: 8px;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 .pricing_title{
     font-family: 'Rubik', sans-serif;
-    font-size: 3.2rem;
+    font-size: 32px;
     font-weight: 500;
-    line-height: 4rem;
+    line-height: 40px;
 }
 .pricing_subtitle{
     font-family: 'Inter', sans-serif;
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 2.4rem;
-    margin-bottom: 2.4rem;
+    line-height: 24px;
+    margin-bottom: 24px;
 }
 .pricing_cards{
     display: flex;
     flex-direction: row;
-    gap: 2.4rem;
+    gap: 24px;
     list-style: none;
     align-items: stretch;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
 }
 .plan{
-    padding: 2.4rem 2.4rem;
-    gap: 2.4rem;
+    padding: 24px 24px;
+    gap: 24px;
     display: flex;
     flex-direction: column;
-    width: 41.5rem;
+    width: 415px;
     align-items: flex-start;
+    transition: all 0.4s ease;
+}
+.plan:hover, .people:hover{
+    border-color: rgba(108, 99, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.07);
+    transform: translate(-8px);
 }
 .plan_picture{
-    width: 5.8rem;
-    height: 5.8rem;
+    width: 58px;
+    height: 58px;
 }
 .plan_text{
     display: flex;
@@ -528,111 +547,114 @@ body{
 .plan_tittle{
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
-    font-size: 3.2rem;
-    line-height: 4rem;
+    font-size: 32px;
+    line-height: 40px;
 }
 .plan_price{
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
-    font-size: 3.2rem;
-    line-height: 4rem;
-    border-bottom: 0.1rem solid #ffffffac;
+    font-size: 32px;
+    line-height: 40px;
+    border-bottom: 1px solid #ffffffac;
 }
 .chooses{
-    gap: 1.4rem;
+    gap: 14px;
     display: flex;
     flex-direction: column;
 }
 .one_choose{
     display: flex;
     flex-direction: row;
-    gap: 1.1rem;
+    gap: 11px;
     align-items: center;
 }
 .choose_text{
     display: flex;
     align-items: center;
-    gap: 1.4rem;
+    gap: 14px;
 }
 .choose{
-    width: 2.4em;
-    height: 2.4em;
+    width: 24px;
+    height: 24px;
+    align-self: flex-start;
+    margin-top: 10px;
 }
 .button_choose{
     font-family: 'Rubik', sans-serif;
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 2.4rem;
-    padding: 1.2rem 1.6rem;
-    gap: 2rem;
+    line-height: 24px;
+    padding: 12px 16px;
+    gap: 20px;
     background-color: #2B2B2B;
     color: white;
-    border: 0.1rem solid #fefeff;
-    border-radius: 1.2rem;
+    border: 1px solid #fefeff;
+    border-radius: 12px;
     width: 100%;
     margin-top: auto;
     display: flex;
     justify-content: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .faq{
-    padding: 8rem 4rem;
+    padding: 80px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 40px;
 }
 .faq_text{
     text-align: center;
     display:flex;
     flex-direction: column;
-    gap: 0.8rem;
-    width: 53rem;
+    gap: 8px;
+    width: 530px;
 }
 .faq-tittle{
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
-    font-size: 3.2rem;
-    line-height: 4rem;
+    font-size: 32px;
+    line-height: 40px;
 }
 .faq_subtittle{
     font-family: 'Inter', sans-serif;
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 2.4rem;
+    line-height: 24px;
 }
 .questions{
     display: flex;
     flex-direction: column;
-    gap: 2.4rem;
+    gap: 24px;
     width: 100%;
-    max-width: 100rem;
+    max-width: 1000px;
 }
 .question{
     display: flex;
     flex-direction: row;
-    padding: 2.4rem 4rem;
-    border-bottom: 0.1rem solid #333;
+    padding: 24px 40px;
+    border-bottom: 1px solid #333;
     justify-content: space-between;
 }
 .question_title{
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
-    font-size: 2rem;
-    line-height: 2.4rem;
+    font-size: 20px;
+    line-height: 24px;
     display: flex;
     align-items: center;
 }
 .plus{
-    width: 2.4em;
-    height: 2.4em;
+    width: 24px;
+    height: 24px;
     margin: left;
 }
 .footer{
-    padding: 4rem 4rem;
+    padding: 40px 40px;
     display: flex;
     flex-direction: column;
-    border-top: 0.1rem solid #333;
+    border-top: 1px solid #333;
 }
 .horizontal{
     justify-content: space-between;
@@ -643,49 +665,56 @@ body{
 }
 .footer_sub{
     display: flex;
-    gap: 2.4rem;
+    gap: 24px;
     flex-direction: column;
-    max-width: 40rem;
+    max-width: 400px;
 }
 .footer_text{
     text-align: left;
-    gap: 0.4rem;
+    gap: 4px;
 }
 .footer_title{
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
-    font-size: 2rem;
-    line-height: 2.4rem;
+    font-size: 20px;
+    line-height: 24px;
 }
 .footer_subtitle{
     font-family: 'Inter', sans-serif;
-    font-size: 1.4rem;
-    line-height: 2.2rem;
+    font-size: 14px;
+    line-height: 22px;
 }
 .subscribe{
     border: none;
-    border-bottom: 0.1rem solid #333;
-    padding: 1.2rem 1.2rem;
+    border-bottom: 1px solid #333;
+    padding: 12px 12px;
     color: white;
     font-family: 'Rubik', sans-serif;
-    font-size: 1.2rem;
-    width: 39.4rem;
-    height: 4.8rem;
+    font-size: 12px;
+    width: 394px;
+    height: 48px;
     background-color: #2B2B2B;
     text-align: left;
+    transition: all 0.3s ease;
+}
+.subscribe:focus{
+    outline: none;
+    border-color: #6c63ff;
+    background: rgba(255, 255, 255, 0.07);
+    box-shadow: 0 0 15px rgba(108, 99, 255, 0.4);
 }
 .join_button{
-    width: 39.4rem;
-    height: 4.8rem;
+    width: 394px;
+    height: 48px;
     font-family: 'Rubik', sans-serif;
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 500;
-    padding: 1.2rem 1.6rem;
-    gap: 2rem;
+    padding: 12px 16px;
+    gap: 20px;
     background-color: #f8f8f80d;
     color: #fefeff;
-    border: 0.1rem solid #f8f8f81a;
-    border-radius: 1.2rem;
+    border: 1px solid #f8f8f81a;
+    border-radius: 12px;
     text-align: center;
 }
 .footer_form{
@@ -693,48 +722,188 @@ body{
     flex-direction: column;
 }
 .lists{
-    gap: 2.4rem;
+    gap: 24px;
     display: flex;
     flex-direction: row;
 }
 .list1{
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 8px;
     list-style: none;
     text-decoration: none;
 }
 .list2{
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 8px;
     list-style: none;
     text-decoration: none;
 }
 .list_name{
     font-family: 'Inter', sans-serif;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
+    font-size: 16px;
+    line-height: 24px;
     color: #ffffff;
     text-decoration: none;
 }
 .logo_footer{
-    width: 144.3rem;
-    height: 36.4rem;
-    margin-top: 4rem;
+    width: 1443px;
+    height: 364px;
+    margin-top: 40px;
     max-width: 100%;
     display: block;
 }
 .copyright{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 12px;
     text-align: center;
 }
+.applications{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(108, 99, 255, 0.25)
+}
+.application{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    width: 100%;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 64px;
+    background-color: #353535;
+    color:#fefeff;
+}
+.application_title{
+    font-size: 36px;
+}
+.application_form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.application_close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color:#211e57
+}
 @media (max-width: 768px){
-    .root{font-size: 50%;}
-    .header{flex-direction: column; align-items: flex-start; gap: 1rem; padding: 1.2rem 1.6rem;}
-    .menu_list{display: none;}
-    .logo_image{width: 12rem; height: 3.2rem;}
-    .button{width: 100%}
-    .conteiner{padding: 0 1.6rem}
+    html{
+        font-size: 50%;
+    }
+    body{
+        padding: 0 15px;
+    }
+    .header{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+    .menu_list{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .hero_frame{
+        padding: 40px 10px;
+    }
+    .dashboard{
+        width: 100%;
+        height: 100%;
+    }
+    .brands{
+        padding: 40px 10px;
+    }
+    .logotype{
+        max-width: 100px;
+    }
+    .features_card{
+        width: 100%;
+        max-width: 100%;
+    }
+    .features_images{
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+    .case_text{
+        align-items: center;
+    }
+    .smedias{
+        width: 100%;
+        height: auto;
+        max-width: 320px;
+    }
+    .stats_frame{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .stat{
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #ffffffac;
+    }
+    .stat:last-child{
+        border-bottom: none;
+    }
+    .testimonials_frame{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .people{
+        width: 100%;
+    }
+    .cta_frame{
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+        align-items: center;
+    }
+    .cta-text{
+        align-items: center;
+    }
+    .cta_image{
+        width: 100%;
+        height: auto;
+    }
+    .pricing_cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .plan{
+        width: 100%;
+        max-width: 100%;
+    }
+    .horizontal{
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+    .footer_sub{
+        align-items: center;
+        width: 100%;
+    }
+    .subscribe{
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+    .lists{
+        flex-direction: column;
+        gap: 30px;
+    }
 }
