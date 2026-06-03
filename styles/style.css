@@ -67,7 +67,6 @@ body{
     color: #fefeff;
     border: 0.1rem solid #f8f8f81a;
     border-radius: 1.6rem;
-    box-shadow: 0 8rem 24rem rgba(108, 99, 255, 0.25);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover, .button_choose:hover, .button2:hover, .cta_button:hover, .join_button:hover{
