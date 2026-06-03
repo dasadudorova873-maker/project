@@ -114,7 +114,6 @@ body{
 }
 .button2{
     padding: 14px 28px;
-    flex: 1;
     font-family: 'Rubik', sans-serif; 
     font-weight: 500;
     font-size: 16px;
@@ -635,10 +634,11 @@ body{
     gap: 24px;
     width: 100%;
     max-width: 1000px;
+    list-style: none;
 }
 .question{
     display: flex;
-    flex-direction: row;
+    flex-direction: wrap;
     padding: 24px 40px;
     border-bottom: 1px solid #333;
     justify-content: space-between;
@@ -655,6 +655,23 @@ body{
     width: 24px;
     height: 24px;
     margin: left;
+}
+question.active .plus{
+    transform: rotate(45deg);
+}
+.question_answer{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+.question .question_answer{
+    display: none;
+}
+.question.active .question_answer{
+    display: block;
 }
 .footer{
     padding: 40px 40px;
