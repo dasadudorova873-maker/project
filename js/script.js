@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
     console.log('Скрипт сработал корректно')
 });
 const welcomeButtonModal = document.querySelector(".button");
-const modalApplication=document.querySelector(".application");
+const modalApplication=document.querySelector(".applications");
 if (welcomeButtonModal && modalApplication){
     welcomeButtonModal.addEventListener("click", function(event){
         modalApplication.removeAttribute("hidden");
