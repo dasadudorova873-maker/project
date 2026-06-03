@@ -18,7 +18,7 @@ const closeModalButton=document.querySelector(".application_close");
 closeModalButton.addEventListener("click", function(event){
     modalApplication.setAttribute("hidden", true);
 });
-const faqQuestions=document.querySelectorAll('question');
+const faqQuestions=document.querySelectorAll('.question');
 faqQuestions.forEach(function(item){
     item.addEventListener('click', function(){
         item.classList.toggle('active');
