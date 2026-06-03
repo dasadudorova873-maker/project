@@ -875,11 +875,11 @@ question.active .plus{
     }
     .case_text{
         align-items: center;
+        text-align: center;
     }
     .smedias{
         width: 100%;
         height: auto;
-        max-width: 320px;
     }
     .stats_text{
         flex-direction: column;
@@ -916,6 +916,9 @@ question.active .plus{
     .cta_image{
         width: 100%;
         height: auto;
+    }
+    .pricing{
+        align-items: center;
     }
     .pricing_cards{
         flex-direction: column;
