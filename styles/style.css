@@ -839,7 +839,7 @@ question.active .plus{
     .header{
         gap: 2rem;
         padding: 2rem 1rem;
-        text-align: center;
+        align-items: center;
         justify-content: space-between;
     }
     .menu_list{
