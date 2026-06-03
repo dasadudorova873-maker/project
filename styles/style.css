@@ -1,9 +1,6 @@
 *, ::before, ::after{
     box-sizing: border-box;
 }
-.root{
-    font-size: 62.5%;
-}
 html{
     font-size: 16px;
 }
@@ -51,6 +48,9 @@ body{
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 2.4rem;
+}
+.root{
+    font-size: 62.5%;
 }
 .dropdown{
     width: 0.8em;
@@ -145,7 +145,6 @@ body{
     border-radius: 16px;
     display: block;
     box-shadow: 0px 40px 100px rgba(0, 0, 0, 0.95);
-    animation: float 6s ease-in-out infinite;
 }
 .logo_wrapper{
     gap: 16px;
@@ -841,6 +840,7 @@ question.active .plus{
         gap: 2rem;
         padding: 2rem 1rem;
         text-align: center;
+        justify-content: space-between;
     }
     .menu_list{
         flex-wrap: wrap;
@@ -871,6 +871,7 @@ question.active .plus{
     }
     .case_study{
         flex-direction: column;
+        align-items: center;
     }
     .case_text{
         align-items: center;
@@ -880,8 +881,9 @@ question.active .plus{
         height: auto;
         max-width: 320px;
     }
-    .stats_frame{
+    .stats_text{
         flex-direction: column;
+        align-items: center;
         gap: 40px;
     }
     .stat{
@@ -899,13 +901,16 @@ question.active .plus{
     .people{
         width: 100%;
     }
-    .cta_frame{
+    .people_text{
+        flex-wrap: wrap;
+    }
+    .cta{
         flex-direction: column;
         padding: 40px 20px;
         text-align: center;
         align-items: center;
     }
-    .cta-text{
+    .cta_text{
         align-items: center;
     }
     .cta_image{
@@ -916,15 +921,14 @@ question.active .plus{
         flex-direction: column;
         align-items: center;
         gap: 30px;
+        flex-wrap: wrap;
     }
     .plan{
         width: 100%;
         max-width: 100%;
     }
     .horizontal{
-        flex-direction: column;
         gap: 40px;
-        text-align: center;
         align-items: center;
     }
     .footer_sub{
