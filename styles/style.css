@@ -22,57 +22,57 @@ body{
     margin: 0 auto;
 }
 .header{
+    max-width: 90rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.6rem 4rem;
+    padding: 1rem 2.5rem;
+    margin: 0 auto;
 }
 .logo_image{
-    width: 17.2rem;
-    height: 4rem;
+    width: 10.75rem;
+    height: 2.5rem;
 }
 .menu_list{
     list-style: none;
     display: flex;
-    gap: 2.4rem; 
+    gap: 1.5rem; 
 }
 .menu_item{
     display: flex;
     flex-direction: row;
-    gap: 1.2rem;
+    gap: 0.75rem;
 }
 .menu_link{
     color: #ffffff;
     text-decoration: none;
     font-family: 'Rubik', sans-serif; 
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 2.4rem;
-}
-.root{
-    font-size: 62.5%;
+    line-height: 1.5rem;
 }
 .dropdown{
-    width: 0.8em;
-    height: 0.8em;
-    margin-left: 1.2rem;
+    width: 0.5em;
+    height: 0.5em;
+    margin-left: 0.75rem;
 }
 .button{
-    padding: 1.4rem 2.8rem;
+    padding: 0.75rem 1rem;
     font-family: 'Rubik', sans-serif; 
-    font-size: 1.6rem;
-    line-height: 2.4rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     font-weight: 500;
-    gap: 2rem;
+    gap: 1.25rem;
     background-color: #f8f8f80d;
     color: #fefeff;
-    border: 0.1rem solid #f8f8f81a;
-    border-radius: 1.6rem;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid #f8f8f81a;
+    border-radius: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 .button:hover, .button_choose:hover, .button2:hover, .cta_button:hover, .join_button:hover{
     box-shadow: 0 15px 30px rgba(108, 99, 255, 0.25);
     filter: brightness(1.1);
+    
 }
 .hero{
     text-align: center;
@@ -80,15 +80,13 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    padding: 80px 0;
+    padding: 0 0 80px 0;
 }
 .illustration{
     top: 0;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 110px;
 }
 .hero_frame{
     display: flex;
@@ -102,18 +100,19 @@ body{
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+    width: 403px;
 }
 .hero_button{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 16px;
     list-style: none;
-    width: 100%;
 }
 .button2{
-    padding: 14px 28px;
+    min-width: 193px;
+    padding: 12px 16px;
     font-family: 'Rubik', sans-serif; 
     font-weight: 500;
     font-size: 16px;
@@ -123,7 +122,7 @@ body{
     color: #fefeff;
     border: 1px solid #f8f8f81a;
     border-radius: 16px;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 .hero_note{
     font-family: 'Rubik', sans-serif;
@@ -131,17 +130,21 @@ body{
     font-size: 14px;
     line-height: 20px;
     text-align: center;
+    max-width: 403px;
 }
 .brand{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 982px;
+    gap: 80px;
+    min-height: 982px;
+    width: 100%;
 }
 .dashboard{
-    width: 1098px;
-    height: 780px;
+    width: 100%;
+    max-width: 1098px;
+    min-height: 780px;
     border-radius: 16px;
     display: block;
     box-shadow: 0px 40px 100px rgba(0, 0, 0, 0.95);
@@ -151,6 +154,7 @@ body{
     padding: 24px 40px;
     display: flex;
     flex-direction: column;
+    height: 209px;
 }
 .brand_title{
     font-family: 'Rubik', sans-serif;
@@ -164,12 +168,18 @@ body{
     gap: 16px;
     list-style: none;
 }
+.logotype{
+    max-width: 100%;
+    height: 120px;;
+    padding: 40px 40px;
+}
 .features{
     gap: 40px;
     padding: 80px 40px;
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    margin-top: 50px;
 }
 .features_text{
     gap: 8px;
@@ -185,12 +195,14 @@ body{
     font-size: 32px;
     font-weight: 500;
     line-height: 40px;
+    color: #F8F8F8;
 }
 .features_subtitle{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    color: #F8F8F8;
 }
 .features_images{
     display: flex;
@@ -202,7 +214,7 @@ body{
 .feature_card{
     width: 368px;
     gap: 16px;
-    padding: 16px 16px;
+    padding: 16px 16px 32px 16px;
     display: flex;
     flex-direction: column;
 }
@@ -216,6 +228,7 @@ body{
     text-align: left;
     align-items: flex-start;
     gap: 8px;
+    padding: 0 16px 0 16px;
 }
 .feat_title{
     font-family: 'Rubik', sans-serif;
@@ -288,6 +301,7 @@ body{
     text-align: center;
     width: 421px;
     border-right: 1px solid #ffffffac;
+    padding: 0 24px 0 0;
 }
 .stat:last-child{
     border-right: none;
@@ -333,7 +347,7 @@ body{
     gap: 8px;
     text-align: center;
 }
-.test_title{
+.test_tittle{
     font-family: 'Rubik', sans-serif;
     font-size: 32px;
     font-weight: 500;
@@ -355,17 +369,17 @@ body{
     width: 100%;
 }
 .people{
+    max-width: 368px;
     display: flex;
     flex: 1;
     flex-direction: column;
     align-items: center;
     gap: 16px;
     padding: 16px 16px;
-    transition: all 0.4s ease;
+    transition: transform 0.4s ease, border-color 0.4s ease;
 }
 .people_image{
     height: 243px;
-    width: 336px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -455,11 +469,13 @@ body{
     text-align: left;
     color: black;
 }
-.cta_title{
+.cta_titles{
+    gap: 8px;
+}
+.cta_tittle{
     font-family: 'Rubik', sans-serif;
     font-size: 32px;
     font-weight: 500;
-    margin-top: 40px;
     line-height: 40px;
 }
 .cta_text{
@@ -484,9 +500,10 @@ body{
     gap: 20px;
     background-color: #fefeff;
     color: black;
-    border: 1px solid #2B2B2B;
-    border-radius: 12px;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.212);
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 .analitics{
     width: 540px;
@@ -533,7 +550,11 @@ body{
     flex-direction: column;
     width: 415px;
     align-items: flex-start;
-    transition: all 0.4s ease;
+    transition: transform 0.4s ease, border-color 0.4s ease;
+}
+.plan:nth-child(2){
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
 }
 .plan:hover, .people:hover{
     border-color: rgba(108, 99, 255, 0.4);
@@ -547,6 +568,12 @@ body{
 .plan_text{
     display: flex;
     flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+.plan_titles{
+    padding: 0 0 24px 0;
+    border-bottom: 1px solid #ffffffac;
 }
 .plan_tittle{
     font-family: 'Rubik', sans-serif;
@@ -559,7 +586,6 @@ body{
     font-weight: 500;
     font-size: 32px;
     line-height: 40px;
-    border-bottom: 1px solid #ffffffac;
 }
 .chooses{
     gap: 14px;
@@ -595,10 +621,7 @@ body{
     border: 1px solid #fefeff;
     border-radius: 12px;
     width: 100%;
-    margin-top: auto;
-    display: flex;
-    justify-content: center;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 .faq{
     padding: 80px 40px;
@@ -607,6 +630,8 @@ body{
     justify-content: center;
     align-items: center;
     gap: 40px;
+    width: 100%;
+    max-width: 100%;
 }
 .faq_text{
     text-align: center;
@@ -615,7 +640,7 @@ body{
     gap: 8px;
     width: 530px;
 }
-.faq-tittle{
+.faq_tittle{
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 32px;
@@ -632,14 +657,19 @@ body{
     flex-direction: column;
     gap: 24px;
     width: 100%;
-    max-width: 1000px;
     list-style: none;
 }
 .question{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     padding: 24px 40px;
     border-bottom: 1px solid #333;
+    justify-content: space-between;
+}
+.question_text{
+    width: 100%;
+    display: flex;
     justify-content: space-between;
 }
 .question_title{
@@ -650,22 +680,37 @@ body{
     display: flex;
     align-items: center;
 }
+.question.active{
+    background-color: rgba(0, 0, 0, 0.15);
+}
 .plus{
     width: 24px;
     height: 24px;
     margin: left;
     transition: transform 0.3s ease;
 }
-question.active .plus{
-    transform: rotate(45deg);
+.question .plus{
+    display: none;
+}
+.question .minus{
+    display: block;
+}
+.question.active .plus{
+    display: block;
+}
+.question.active .minus{
+    display: none;
 }
 .answer{
+    width: 100%;
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     display: flex;
     align-items: center;
+    color: #F8F8F8;
+    margin: 20px 0 0 0;
 }
 .question .answer{
     display: none;
@@ -684,7 +729,7 @@ question.active .plus{
     justify-content: space-between;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
 }
 .footer_sub{
@@ -702,11 +747,14 @@ question.active .plus{
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    color: #F4F4F4;
 }
 .footer_subtitle{
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     line-height: 22px;
+    font-weight: 400;
+    color: #F4F4F4;
 }
 .subscribe{
     border: none;
@@ -719,7 +767,7 @@ question.active .plus{
     height: 48px;
     background-color: #2B2B2B;
     text-align: left;
-    transition: all 0.3s ease;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
 }
 .subscribe:focus{
     outline: none;
@@ -736,11 +784,11 @@ question.active .plus{
     padding: 12px 16px;
     gap: 20px;
     background-color: #f8f8f80d;
-    color: #fefeff;
+    color: #ffffff;
     border: 1px solid #f8f8f81a;
     border-radius: 12px;
     text-align: center;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 .footer_form{
     display: flex;
@@ -769,7 +817,7 @@ question.active .plus{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     line-height: 24px;
-    color: #ffffff;
+    color: #F4F4F4;
     text-decoration: none;
 }
 .logo_footer{
@@ -783,6 +831,10 @@ question.active .plus{
     text-align: center;
     font-size: 12px;
     text-align: center;
+    color:#F4F4F4;
+}
+.burger-btn{
+    display: none;
 }
 .applications{
     position: fixed;
@@ -824,17 +876,22 @@ question.active .plus{
 }
 .application_close{
     position: absolute;
+    border: none;
     top: 0;
     right: 0;
     padding: 10px;
-    background-color:#211e57
+    background-color:#3b307c;
+    color: #f7f7f7;
 }
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     html{
         font-size: 50%;
     }
     body{
         padding: 0 15px;
+    }
+    .container{
+        max-width: 100%;
     }
     .header{
         gap: 2rem;
@@ -842,23 +899,57 @@ question.active .plus{
         align-items: center;
         justify-content: space-between;
     }
-    .menu_list{
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1.5rem;
+    .burger-btn {
+        display:block;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 16px;
+    }
+    .menu_item{
+        display: none;
+    }
+    .hero{
+        padding: 20px;
+    }
+    .picture{
+        padding: 0 20px;
+        max-width: 100%;
+        height: auto;
     }
     .hero_frame{
         padding: 40px 10px;
     }
     .dashboard{
-        width: 100%;
-        height: 100%;
+        max-width: 100%;
+        height: auto;
+        min-height: auto;
     }
-    .brands{
-        padding: 40px 10px;
+    .brand{
+        padding: 10px 10px;
+        gap: 40px;
+        min-height: auto;
+    }
+    .logo_wrapper{
+        max-width: 100%;
+    }        
+    .logotypes{
+        max-width: 100%;
+        height: auto;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .logotype{
         max-width: 100px;
+        padding: 10px 10px;
+        height: auto;
+    }
+    .features{
+        padding: 10px 40px;
+    }
+    .features_text{
+        max-width: 100%;
     }
     .features_card{
         width: 100%;
@@ -876,20 +967,27 @@ question.active .plus{
     .case_text{
         align-items: center;
         text-align: center;
+        max-width: 100%;
     }
-    .smedias{
-        width: 100%;
+    .social_medias{
+        max-width: 100%;
         height: auto;
+    }
+    .stats{
+        align-items: center;
     }
     .stats_text{
         flex-direction: column;
         align-items: center;
-        gap: 40px;
+        gap: 20px;
+        min-height: auto;
+        padding: 30px 24px;
     }
     .stat{
         width: 100%;
         border-right: none;
         border-bottom: 1px solid #ffffffac;
+        padding: 0 24px 24px 0;
     }
     .stat:last-child{
         border-bottom: none;
@@ -897,6 +995,7 @@ question.active .plus{
     .testimonials_frame{
         flex-direction: column;
         gap: 40px;
+        align-items: center;
     }
     .people{
         width: 100%;
@@ -909,12 +1008,23 @@ question.active .plus{
         padding: 40px 20px;
         text-align: center;
         align-items: center;
+        max-width: 100%;
+    }
+    .cta_frame{
+        max-width: 100%;
+    }
+    .cta_titles{
+        flex-wrap: wrap;
     }
     .cta_text{
         align-items: center;
     }
     .cta_image{
         width: 100%;
+        height: auto;
+    }
+    .analitics{
+        max-width: 100%;
         height: auto;
     }
     .pricing{
@@ -933,6 +1043,8 @@ question.active .plus{
     .horizontal{
         gap: 40px;
         align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     .footer_sub{
         align-items: center;
@@ -942,5 +1054,11 @@ question.active .plus{
         flex-direction: column;
         width: 100%;
         gap: 15px;
+    }
+    .application{
+        max-width: 60%;
+        min-height: auto;
+        flex-wrap: wrap;
+        gap: 20px;
     }
 }
